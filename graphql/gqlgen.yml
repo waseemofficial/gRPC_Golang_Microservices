@@ -1,6 +1,9 @@
 schema: schema.graphql
 
-model:
+models:
+  ID:
+    model:
+      - github.com/99designs/gqlgen/graphql.ID
   Account:
     model: grpc_graphql_microservice/graphql.Account
     fields:
