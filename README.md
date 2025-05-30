@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Fwaseemofficial%2F{env.}.json%3Fcolor%3Dpink"/>
+<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Fwaseemofficial%2FgRPC_Golang_Microservices.json%3Fcolor%3Dpink"/>
 
 
 
@@ -22,7 +22,7 @@
 </a>
 <br>
 
-<img src="https://img.shields.io/github/license/waseemofficial/{env.}.svg?style=flat"/> <img src="https://img.shields.io/github/languages/top/waseemofficial/{env.}?style=flat"/> <img src="https://img.shields.io/github/stars/waseemofficial/{env.}.svg?colorB=orange&style=flat"/> <img sec="https://img.shields.io/github/languages/top/waseemofficial/{env.}.svg?style=flat"/> <img src="https://img.shields.io/github/languages/code-size/waseemofficial/{env.}.svg?style=flat"/> <img src="https://img.shields.io/github/issues-raw/waseemofficial/{env.}.svg?style=flat" />
+<img src="https://img.shields.io/github/license/waseemofficial/gRPC_Golang_Microservices.svg?style=flat"/> <img src="https://img.shields.io/github/languages/top/waseemofficial/gRPC_Golang_Microservices?style=flat"/> <img src="https://img.shields.io/github/stars/waseemofficial/gRPC_Golang_Microservices.svg?colorB=orange&style=flat"/> <img sec="https://img.shields.io/github/languages/top/waseemofficial/gRPC_Golang_Microservices.svg?style=flat"/> <img src="https://img.shields.io/github/languages/code-size/waseemofficial/gRPC_Golang_Microservices.svg?style=flat"/> <img src="https://img.shields.io/github/issues-raw/waseemofficial/gRPC_Golang_Microservices.svg?style=flat" />
 </div>
 
 <div align="center"> 
