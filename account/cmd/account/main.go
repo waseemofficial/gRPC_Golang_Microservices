@@ -4,7 +4,8 @@ import (
 	"log"
 	"time"
 
-	//"grpc_graphql_microservice/account"
+	"grpc_graphql_microservice/account"
+
 	"github.com/kelseyhightower/envconfig"
 	"github.com/tinrab/retry"
 )

@@ -32,8 +32,9 @@ func (s *grpcServer) PostAccount(ctx context.Context, r *pb.PostAccountRequest) 
 		return nil, err
 	}
 	return &pb.PostAccountResponse{Account: &pb.Account{
-		Id:   a.ID,
-		Name: a.Name,
+		Id:    a.ID,
+		Name:  a.Name,
+		Email: a.Email,
 	}}, nil
 }
 
@@ -44,8 +45,9 @@ func (s *grpcServer) GetAccount(ctx context.Context, r *pb.GetAccountRequest) (*
 	}
 	return &pb.GetAccountResponse{
 		Account: &pb.Account{
-			Id:   a.ID,
-			Name: a.Name,
+			Id:    a.ID,
+			Name:  a.Name,
+			Email: a.Email,
 		},
 	}, nil
 }
@@ -60,8 +62,9 @@ func (s *grpcServer) GetAccounts(ctx context.Context, r *pb.GetAccountsRequest) 
 		accounts = append(
 			accounts,
 			&pb.Account{
-				Id:   p.ID,
-				Name: p.Name,
+				Id:    p.ID,
+				Name:  p.Name,
+				Email: p.Email,
 			},
 		)
 	}
