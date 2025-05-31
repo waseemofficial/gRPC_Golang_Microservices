@@ -1,3 +1,4 @@
+//go:generate protoc ./account.proto --go_out=plugins=grpc:./pb
 package account
 
 import (
@@ -5,6 +6,8 @@ import (
 	"fmt"
 	"net"
 
+	//"account\pb"
+	//"grpc_graphql_microservice/account/pb"
 	"grpc_graphql_microservice/account/pb"
 
 	"google.golang.org/grpc"
